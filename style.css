@@ -34,7 +34,7 @@ h4{
     padding: 5px;
 }
 
-table {
+#table1 {
 
     border: 1px solid black;
     margin: auto;
@@ -45,9 +45,33 @@ table {
     width: 50%;
 }
 
+#table2 {
+
+    border: 1px solid black;
+    margin: auto;
+    padding: 1spx;
+    border-collapse: collapse;
+    background-color: rgb(152, 189, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
 th,td {
 
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+
+.list{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.space{
+    background-color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: palevioletred;
+    text-align: start;
 }
