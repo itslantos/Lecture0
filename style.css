@@ -1,12 +1,13 @@
+
 h1 {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: chocolate;
+color: cornsilk;
 text-align: center;
 }
 
 h2 {
 
-    color: darkgoldenrod;
+    color: lightblue;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -23,7 +24,7 @@ h4{
 
 #first_part {
 
-    background-color: indianred;
+    background-color: cornsilk;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px dashed black;
@@ -40,7 +41,7 @@ h4{
     margin: auto;
     padding: 1spx;
     border-collapse: collapse;
-    background-color: darkgray;
+    background-color: cornsilk;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
 }
@@ -51,14 +52,14 @@ h4{
     margin: auto;
     padding: 1spx;
     border-collapse: collapse;
-    background-color: rgb(152, 189, 16);
+    background-color: cornsilk;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
 }
 
 th,td {
 
-    border: 1px solid black;
+    border: 1px solid tomato;
     padding: 10px;
     text-align: center;
 }
@@ -66,12 +67,69 @@ th,td {
 .list{
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornsilk;
 }
 
 .space{
-    background-color: seashell;
+    background-color: teal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: palevioletred;
+    color: wheat;
     text-align: start;
+}
+
+.bg{
+
+    background-color: cadetblue;
+
+
+}
+
+input[type=text]{
+
+    text-align: center;
+}
+
+input[type=password]{
+
+    text-align: center;
+}
+
+button{
+
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+button:hover{
+
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+a{
+
+    color: tomato;   
+}
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container > div{
+
+    background-color: cornsilk;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+
 }
